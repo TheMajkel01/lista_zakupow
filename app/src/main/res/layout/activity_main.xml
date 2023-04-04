@@ -7,14 +7,15 @@
     tools:context=".MainActivity">
 
     <RadioGroup
+        android:id="@+id/choiceGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="550dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:orientation="horizontal">
+        app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
             android:id="@+id/radioButton"
@@ -28,6 +29,6 @@
             android:layout_height="wrap_content"
             android:text="Lista" />
     </RadioGroup>
-    <include layout="@layout/add_item"> </include>
-    <include layout="@layout/check_item"> </include>
+    <include layout="@layout/check_item"></include>
+    <include layout="@layout/add_item"></include>
 </androidx.constraintlayout.widget.ConstraintLayout>
