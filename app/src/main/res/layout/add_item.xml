@@ -11,43 +11,71 @@
 
         <TextView
             android:id="@+id/textView"
-            android:text="Wybierz produkty:"
+            android:text="Wpisz produkty:"
             android:textSize="18sp"
             android:layout_margin="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <CheckBox
+
+        <EditText
             android:id="@+id/checkBox1"
-            android:text="Makaron"
+            android:hint="Wędliny"
             android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <CheckBox
+        <EditText
             android:id="@+id/checkBox2"
-            android:text="Sos pomidorowy"
+            android:hint="Wędliny"
             android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <CheckBox
+        <EditText
             android:id="@+id/checkBox3"
-            android:text="Mięso mielone"
+            android:hint="Wędliny"
             android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <CheckBox
+        <EditText
             android:id="@+id/checkBox4"
-            android:text="Cebula"
+            android:hint="Pieczywo"
+            android:layout_marginStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/checkBox5"
+            android:hint="Pieczywo"
             android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <CheckBox
-            android:id="@+id/checkBox5"
-            android:text="Czosnek"
+        <EditText
+            android:id="@+id/checkBox6"
+            android:hint="Pieczywo"
+            android:layout_marginStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/checkBox7"
+            android:hint="Warzywa"
+            android:layout_marginStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/checkBox8"
+            android:hint="Warzywa"
+            android:layout_marginStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/checkBox9"
+            android:hint="Warzywa"
             android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
