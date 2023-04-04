@@ -20,12 +20,14 @@
             android:id="@+id/radioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Dodaj produkty" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Lista" />
     </RadioGroup>
+    <include layout="@layout/add_item"> </include>
+    <include layout="@layout/check_item"> </include>
 </androidx.constraintlayout.widget.ConstraintLayout>
