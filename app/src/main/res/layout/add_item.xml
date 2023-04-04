@@ -11,82 +11,104 @@
 
         <TextView
             android:id="@+id/textView"
-            android:text="Wpisz produkty:"
-            android:textSize="18sp"
-            android:layout_margin="16dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Wpisz produkty:"
+            android:textColor="#000000"
+            android:textSize="28sp" />
 
 
         <EditText
             android:id="@+id/checkBox1"
-            android:hint="Wędliny"
-            android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="Wędliny"
+            android:textColor="#E91E63"
+            android:textColorHint="#80E91E63" />
 
         <EditText
             android:id="@+id/checkBox2"
-            android:hint="Wędliny"
-            android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="Wędliny"
+            android:textColor="#E91E63"
+            android:textColorHint="#80E91E63" />
 
         <EditText
             android:id="@+id/checkBox3"
-            android:hint="Wędliny"
-            android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="Wędliny"
+            android:textColor="#E91E63"
+            android:textColorHint="#80E91E63" />
 
         <EditText
             android:id="@+id/checkBox4"
-            android:hint="Pieczywo"
-            android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="Pieczywo"
+            android:textColor="#FFC107"
+            android:textColorHint="#80FFC107" />
+
         <EditText
             android:id="@+id/checkBox5"
-            android:hint="Pieczywo"
-            android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="Pieczywo"
+            android:textColor="#FFC107"
+            android:textColorHint="#80FFC107" />
 
         <EditText
             android:id="@+id/checkBox6"
-            android:hint="Pieczywo"
-            android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="Pieczywo"
+            android:textColor="#FFC107"
+            android:textColorHint="#80FFC107" />
 
         <EditText
             android:id="@+id/checkBox7"
-            android:hint="Warzywa"
-            android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="Warzywa"
+            android:textColor="#FFC107"
+            android:textColorHint="#804CAF50" />
 
         <EditText
             android:id="@+id/checkBox8"
-            android:hint="Warzywa"
-            android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="Warzywa"
+            android:textColor="#4CAF50"
+            android:textColorHint="#804CAF50" />
 
         <EditText
             android:id="@+id/checkBox9"
-            android:hint="Warzywa"
-            android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="Warzywa"
+            android:textColor="#4CAF50"
+            android:textColorHint="#804CAF50" />
 
         <Button
             android:id="@+id/addButton"
-            android:text="Dodaj"
-            android:layout_marginTop="16dp"
-            android:layout_marginStart="16dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Dodaj"
+            android:textColor="#4CAF50"
+            android:textColorHint="#4CAF50" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
