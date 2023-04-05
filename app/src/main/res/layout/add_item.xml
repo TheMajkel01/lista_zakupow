@@ -9,7 +9,7 @@
         android:id="@+id/add"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="115dp"
+        android:layout_marginTop="140dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,88 +27,55 @@
 
 
         <EditText
-            android:id="@+id/checkBox1"
+            android:id="@+id/input1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:hint="Wędliny"
             android:textColor="#E91E63"
             android:textColorHint="#80E91E63" />
-
-        <EditText
-            android:id="@+id/checkBox2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:hint="Wędliny"
-            android:textColor="#E91E63"
-            android:textColorHint="#80E91E63" />
-
-        <EditText
-            android:id="@+id/checkBox3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:hint="Wędliny"
-            android:textColor="#E91E63"
-            android:textColorHint="#80E91E63" />
-
-        <EditText
-            android:id="@+id/checkBox4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:hint="Pieczywo"
-            android:textColor="#FFC107"
-            android:textColorHint="#80FFC107" />
-
-        <EditText
-            android:id="@+id/checkBox5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:hint="Pieczywo"
-            android:textColor="#FFC107"
-            android:textColorHint="#80FFC107" />
-
-        <EditText
-            android:id="@+id/checkBox6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:hint="Pieczywo"
-            android:textColor="#FFC107"
-            android:textColorHint="#80FFC107" />
-
-        <EditText
-            android:id="@+id/checkBox7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:hint="Warzywa"
-            android:textColor="#FFC107"
-            android:textColorHint="#804CAF50" />
-
-        <EditText
-            android:id="@+id/checkBox8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:hint="Warzywa"
-            android:textColor="#4CAF50"
-            android:textColorHint="#804CAF50" />
-
-        <EditText
-            android:id="@+id/checkBox9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:hint="Warzywa"
-            android:textColor="#4CAF50"
-            android:textColorHint="#804CAF50" />
 
         <Button
-            android:id="@+id/addButton"
+            android:id="@+id/addButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Dodaj"
+            android:textColor="#4CAF50"
+            android:textColorHint="#4CAF50" />
+
+        <EditText
+            android:id="@+id/input2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="Pieczywo"
+            android:textColor="#FFC107"
+            android:textColorHint="#80FFC107" />
+
+        <Button
+            android:id="@+id/addButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Dodaj"
+            android:textColor="#4CAF50"
+            android:textColorHint="#4CAF50" />
+
+        <EditText
+            android:id="@+id/input3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="Warzywa"
+            android:textColor="#4CAF50"
+            android:textColorHint="#804CAF50" />
+
+
+        <Button
+            android:id="@+id/addButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
