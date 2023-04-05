@@ -1,5 +1,6 @@
 package com.example.listazakupow
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -7,6 +8,7 @@ import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.RadioGroup
 import android.widget.TextView
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.children
 import com.google.android.material.chip.ChipGroup
 import androidx.core.content.ContextCompat
@@ -19,9 +21,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         fun createCheckboxChip(text: String, chipGroup: ChipGroup) {
-            if (text.isBlank()) {
-                throw IllegalArgumentException("Text cannot be blank")
-            }
             val chip = Chip(chipGroup.context)
             chip.text = text
             chip.isCheckable = true
@@ -29,6 +28,7 @@ class MainActivity : AppCompatActivity() {
             chip.setTextAppearanceResource(R.style.ChipTextAppearance)
             chipGroup.addView(chip)
         }
+
 
         var addProduct = findViewById<LinearLayout>(R.id.add)
         var productList = findViewById<LinearLayout>(R.id.list)
@@ -74,15 +74,21 @@ class MainActivity : AppCompatActivity() {
         var input3 = findViewById<TextView>(R.id.input3)
 
         button1.setOnClickListener {
-            createCheckboxChip(input1.text.toString(),chipGroup1)
+            if(!input1.text.toString().isNullOrEmpty()) {
+                createCheckboxChip(input1.text.toString(), chipGroup1)
+            }
         }
 
         button2.setOnClickListener {
-            createCheckboxChip(input2.text.toString(),chipGroup2)
+            if(!input2.text.toString().isNullOrEmpty()) {
+                createCheckboxChip(input2.text.toString(), chipGroup2)
+            }
         }
 
         button3.setOnClickListener {
-            createCheckboxChip(input3.text.toString(),chipGroup3)
+            if(!input3.text.toString().isNullOrEmpty()) {
+                createCheckboxChip(input3.text.toString(), chipGroup3)
+            }
         }
     }
 }

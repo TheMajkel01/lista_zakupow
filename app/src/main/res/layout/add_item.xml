@@ -42,8 +42,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text="Dodaj"
-            android:textColor="#4CAF50"
-            android:textColorHint="#4CAF50" />
+            android:textColor="@color/black" />
 
         <EditText
             android:id="@+id/input2"
@@ -61,8 +60,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text="Dodaj"
-            android:textColor="#4CAF50"
-            android:textColorHint="#4CAF50" />
+            android:textColor="@color/black" />
 
         <EditText
             android:id="@+id/input3"
@@ -81,8 +79,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text="Dodaj"
-            android:textColor="#4CAF50"
-            android:textColorHint="#4CAF50" />
+            android:textColor="@color/black" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
